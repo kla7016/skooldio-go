@@ -15,6 +15,6 @@ func TestWordCount(t *testing.T) {
 
 	get := wordCount(input)
 	if !reflect.DeepEqual(get, wantOutput) {
-		t.Errorf("input %s want %v but %v", input, wantOutput, get)
+		t.Errorf("input %s want %v but %v \n", input, wantOutput, get)
 	}
 }
