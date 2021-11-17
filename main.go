@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("classroom.skooldio")
+	fmt.Println("classroom.skooldio v2")
 }
